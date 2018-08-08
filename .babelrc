@@ -1,0 +1,24 @@
+{
+  "presets": [
+    "react",
+    "env"
+  ],
+  "env": {
+    "development": {
+      "presets": [
+        "react-hmre"
+      ]
+    },
+    "targets": {
+      "browsers": ["last 2 versions", "safari >= 7", "iOS >= 8"]
+    }
+  },
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "extends": ["tslint:recommended", "tslint:latest", "tslint-react", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "tsconfig.json"
+    ]
+  },
+  "rules": {
+    // "max-line-length": {
+    //   "options": [
+    //     120
+    //   ]
+    // },
+    "semicolon": [true, "never"],
+    "quotemark": [true, "single", "avoid-escape", "avoid-template"],
+    "new-parens": true,
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-conditional-assignment": true,
+    "no-consecutive-blank-lines": false,
+    "no-console": false,
+    "ordered-imports": false,
+    "no-submodule-imports": [
+      true,
+      "antd/dist/antd.css",
+      "maptalks/dist/maptalks.css",
+      "react-icons/lib/fa",
+      "@material-ui/icons"
+    ],
+    "one-line": [
+      true,
+      "check-open-brace",
+      "check-catch",
+      "check-else",
+      "check-whitespace"
+    ],
+    "comment-format": [
+      true,
+      "check-space"
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-separator",
+      "check-type"
+    ],
+    "member-access": false,
+    "member-ordering": false,
+    "object-literal-sort-keys": false,
+    "jsx-boolean-value": false,
+    "jsx-no-lambda": false,
+    "no-this-assignment": false,
+    "prefer-conditional-expression": false
+  }
+}
