@@ -25,7 +25,8 @@ class TodoItem extends React.Component<IProps, IState> {
   render() {
     return (
       <div className = 'showList'>
-        <Checkbox checked={this.props.inputItem.checked} className = 'checkBox'/>{this.props.inputItem.content}
+        <Checkbox checked={this.props.inputItem.checked} className = 'checkBox'/>
+         <span>{this.props.inputItem.content}</span>
         <Button size='small' type='danger' onClick={this.delete}>删除</Button>
       </div>
         

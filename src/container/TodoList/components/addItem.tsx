@@ -40,7 +40,7 @@ class AddItem extends React.Component<IProps, IState> {
         item: {
           id: array[0],
           checked: myChecked,
-          content: array[2]
+          content: e.target.value
         }
       })
     }

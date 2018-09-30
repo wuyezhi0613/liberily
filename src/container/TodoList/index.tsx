@@ -26,14 +26,16 @@ class TodoList extends React.Component<IProps, IState> {
 
   }
 
-  handleAdd(content: any) {
+  handleAdd(item: any) {
+    console.log(item)
     const itemArray = this.state.items
-    itemArray.push(content)
+    itemArray.push(item)
+    console.log(itemArray)
     this.setState({
       items: itemArray
     }, () => {
       console.log('父容器收到的值：')
-      console.dir(content)
+     
     })
   }
 
