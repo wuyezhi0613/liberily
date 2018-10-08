@@ -1,0 +1,91 @@
+.booksBox{
+    width: 600px;
+    height: 500px;
+    margin: 20px auto;
+    border: 1px solid #000000;
+  }
+  .itemBooks{
+    width: 450px;
+    height: 400px;
+    overflow: auto;
+    border: 1px solid #1890ff;
+    margin: 20px auto;
+  }
+  .itemBooks ul {
+    padding-left: 0;
+  }
+  .itemBooks li{
+    list-style: none;
+    height: 30px;
+    padding-left: 30px;
+  }
+  .itemBooks .itemTit{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #1890ff;
+  }
+  .itemBooks li span{
+    width: 150px;
+    display: inline-block;
+  }
+  .booksLists li{
+    list-style: none;
+  }
+  .booksLists li span{
+    width: 150px;
+    display: inline-block;
+  }  
+  .booksLists li button span{
+    width: 40px !important;
+  }
+  .addbooksItem{
+    width: 100%;
+    height: 100%; 
+    padding: 15px; 
+    position: fixed; 
+    left: 0;
+    top: 0; 
+    background-color: #333;
+  }
+  
+  #addbooksForm{
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    border-radius: 5px; 
+    background-color: #ffffff;
+    margin: 0 auto;
+  }
+  #addbooksForm .addInfo{
+    padding-top: 30px;
+    width: 300px;
+    margin: 0 50px;
+  }
+  #addbooksForm div{
+    margin: 10px 0;
+  }
+  #addbooksForm button{
+    float: right;
+  }
+  #addbooksForm div input{
+    width: 300px;
+    margin-top: 10px;
+  }
+  
+  #addbooksForm div span{
+    display: block;
+    width: 50px;
+  }
+  .booksInfo {
+    width: 500px;
+    height: 350px;
+    border: 1px solid #bbbbbb;
+    margin: 50px auto;
+  }
+  .booksInfo button{
+    margin: 10px 20px;
+  }
+  .booksInfo div{
+    width: 450px;
+    margin: 20px auto;
+  }
